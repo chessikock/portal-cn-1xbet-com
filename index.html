@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1xbet 平台知识库 · 站点介绍与可信说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', 'Noto Serif SC', 'Times New Roman', serif;
+            background-color: #f9f6f0;
+            color: #2d2a24;
+            line-height: 1.7;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 880px;
+            margin: 0 auto;
+            background: #fffcf8;
+            border-radius: 28px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.04);
+            padding: 3rem 2.5rem;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            border-left: 5px solid #b59a7a;
+            padding-left: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #3e362e;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #7a6f5e;
+            margin-bottom: 2.8rem;
+            padding-left: 1.8rem;
+            border-bottom: 1px solid #e6ddd0;
+            padding-bottom: 0.75rem;
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: #4b4136;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .section-title::before {
+            content: "▍";
+            color: #b59a7a;
+            font-size: 1.6rem;
+            line-height: 1;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+        .intro-card {
+            background: #f5efe7;
+            border-radius: 18px;
+            padding: 1.8rem 2rem;
+            margin: 2rem 0 1.5rem;
+            box-shadow: inset 0 1px 4px rgba(0,0,0,0.02);
+        }
+        .intro-card p:last-child {
+            margin-bottom: 0;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+            margin: 1.8rem 0;
+        }
+        .feature-item {
+            background: #faf6f0;
+            border-radius: 16px;
+            padding: 1.2rem 1.4rem;
+            border: 1px solid #ece4d8;
+            transition: background 0.15s ease;
+        }
+        .feature-item:hover {
+            background: #f2ebe0;
+        }
+        .feature-item strong {
+            display: block;
+            font-weight: 600;
+            color: #4b3f32;
+            margin-bottom: 0.3rem;
+            font-size: 1rem;
+        }
+        .feature-item span {
+            font-size: 0.95rem;
+            color: #5f5546;
+        }
+        .callout {
+            background: #efe9df;
+            border-left: 5px solid #b59a7a;
+            padding: 1.2rem 1.8rem;
+            border-radius: 0 16px 16px 0;
+            margin: 1.8rem 0;
+            font-style: normal;
+        }
+        .callout strong {
+            color: #3e362e;
+        }
+        .faq-mini {
+            margin: 2rem 0 1.2rem;
+            border-top: 1px solid #e6ddd0;
+            padding-top: 1.8rem;
+        }
+        .faq-item {
+            margin-bottom: 1.4rem;
+        }
+        .faq-q {
+            font-weight: 600;
+            color: #4b3f32;
+            margin-bottom: 0.25rem;
+        }
+        .faq-a {
+            color: #5a4f3f;
+            padding-left: 0.9rem;
+            border-left: 2px solid #d6cbbc;
+        }
+        .link-sentence {
+            background: #fcf8f2;
+            padding: 1.2rem 1.8rem;
+            border-radius: 40px;
+            margin: 2rem 0 0.5rem;
+            text-align: center;
+            border: 1px solid #e5dbcd;
+            font-size: 1rem;
+        }
+        .link-sentence a {
+            color: #7a5f3e;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 1px dashed #b59a7a;
+            transition: border-bottom 0.2s, color 0.2s;
+        }
+        .link-sentence a:hover {
+            color: #4d3822;
+            border-bottom: 1px solid #7a5f3e;
+        }
+        .related-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem 2rem;
+            margin: 1.8rem 0 0.8rem;
+            padding: 1.2rem 0;
+            border-top: 1px solid #e6ddd0;
+            border-bottom: 1px solid #e6ddd0;
+        }
+        .related-links span {
+            color: #6d6254;
+            font-size: 0.95rem;
+        }
+        .related-links a {
+            color: #7a5f3e;
+            text-decoration: none;
+            border-bottom: 1px dotted #d6cbbc;
+        }
+        .related-links a:hover {
+            border-bottom: 1px solid #7a5f3e;
+        }
+        .footer-note {
+            margin-top: 2.5rem;
+            font-size: 0.9rem;
+            color: #8c7f6b;
+            text-align: center;
+            border-top: 1px solid #eae1d4;
+            padding-top: 1.8rem;
+        }
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1.2rem;
+            }
+            h1 {
+                font-size: 1.7rem;
+                padding-left: 0.8rem;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+            .link-sentence {
+                padding: 1rem 1.2rem;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>1xbet 平台知识库</h1>
+        <div class="subhead">站点介绍·可信说明·信息索引</div>
+
+        <p>在数字娱乐与综合服务平台不断演进的今天，了解一个站点的定位、背景以及信息获取方式，是每位用户建立判断的基础。本页以知识库入口的形式，围绕 <a href="https://portal-cn-1xbet.com" style="color:#7a5f3e; text-decoration: underline dotted;">1xbet</a> 这一标识，梳理其站点特性、内容组成与使用场景，帮助读者以更结构化的方式理解该平台的基本面貌。</p>
+
+        <div class="intro-card">
+            <p><strong>关于站点</strong> —— <strong>1xbet</strong> 是一个面向特定地区用户提供数字服务与信息聚合的平台，其界面设计与功能模块围绕实用性、信息密度和交互效率展开。无论你是初次接触还是已有一定使用经验，本站点都致力于提供清晰的内容分类与引导。</p>
+            <p>以下内容将分别从功能特点、适用场景、提示说明以及常见疑问等角度展开，构成一个可参考的知识索引。</p>
+        </div>
+
+        <div class="section-title">功能特点概览</div>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <strong>模块化信息布局</strong>
+                <span>页面内容按主题分区，导航与内容区域层次分明，便于快速定位所需板块。</span>
+            </div>
+            <div class="feature-item">
+                <strong>多语言与地区适配</strong>
+                <span>针对目标用户的语言习惯与地区网络环境进行了界面与内容的本地化调整。</span>
+            </div>
+            <div class="feature-item">
+                <strong>持续更新的内容库</strong>
+                <span>涵盖说明文档、常见问题、服务指引等多类资料，且保持动态补充。</span>
+            </div>
+            <div class="feature-item">
+                <strong>简约一致的视觉风格</strong>
+                <span>采用低饱和度配色与清晰字体，降低阅读负担，突出信息本身。</span>
+            </div>
+        </div>
+
+        <div class="section-title">适用场景与人群</div>
+        <p>该站点主要面向对数字服务有基础了解、希望对平台功能获得系统性认知的使用者。无论是查找特定功能的操作说明，还是了解整体服务框架，都可以通过站内的分类入口找到对应内容。尤其适合那些偏好先阅读资料再自行操作的理性使用者。</p>
+        <p>同时，站内也设置了一些快速指引模块，方便有经验的用户直接跳转到常用功能区域，减少重复浏览步骤。</p>
+
+        <div class="callout">
+            <strong>📌 可信说明与使用提示</strong><br>
+            · 本平台不提供任何形式的投资建议或收益承诺，所有功能与内容均基于现有服务框架展示。<br>
+            · 用户在使用前应仔细阅读相关条款与隐私说明，确保自身行为符合当地法律法规。<br>
+            · 如遇到页面异常或信息不完整，可优先查阅站内的“帮助与常见问题”板块获取支持。
+        </div>
+
+        <div class="section-title">相关信息区</div>
+        <p>以下列出与平台相关的几类信息方向，可作为进一步了解的参考线索：</p>
+        <div class="related-links">
+            <span>🔹 平台更新日志与公告</span>
+            <span>🔹 功能说明书（PDF 版本）</span>
+            <span>🔹 联系渠道与服务时间</span>
+            <span>🔹 常见问题汇编（FAQ）</span>
+        </div>
+        <p style="margin-top: 0.2rem;">以上内容均可通过站内导航或搜索功能定位。部分资料支持直接下载，部分则以在线页面形式呈现。</p>
+
+        <div class="faq-mini">
+            <div class="section-title" style="margin-top: 0;">常见问题摘要</div>
+            <div class="faq-item">
+                <div class="faq-q">问：是否需要注册才能浏览全部内容？</div>
+                <div class="faq-a">大部分说明性内容无需注册即可阅读；仅部分交互功能或个性化设置需要账号登录。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：站内信息多久更新一次？</div>
+                <div class="faq-a">重要变动（如功能调整、条款更新）会及时发布公告；常规说明页面会根据反馈不定期修订。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">问：遇到不熟悉的内容应该从哪里开始？</div>
+                <div class="faq-a">建议从站点首页的“新手指引”或“平台介绍”板块切入，逐步扩展了解范围。</div>
+            </div>
+        </div>
+
+        <div class="link-sentence">
+            要直接访问平台主站，可以通过 <a href="https://portal-cn-1xbet.com">1xbet</a> 这个链接进入，建议使用稳定的网络环境。
+        </div>
+
+        <div class="footer-note">
+            — 本页为知识库式介绍页，内容基于公开信息整理，仅供参考。具体功能以实际站点为准。
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chessikock.github.io/portal-cn-1xbet-com/sitemap.xml
